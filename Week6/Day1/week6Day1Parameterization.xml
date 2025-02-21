@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5" parallel="tests">
+	<parameter name="pwd" value="crmsfa"></parameter>
+	<parameter name="url" value="http://leaftaps.com/opentaps/"></parameter>
+	<parameter name="uname" value="democsr"></parameter> 
+  <test name="safari">
+	<parameter name="browserName" value="safari"></parameter>
+	<classes>
+		<class name="Week6.Day1.testcases.CreateLead"/>
+	</classes>
+  </test>
+  
+</suite> <!-- Suite -->
